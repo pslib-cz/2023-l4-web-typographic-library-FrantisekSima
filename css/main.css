@@ -13,13 +13,18 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+.body__width {
+    margin: auto;
+    max-width: 90vw;
+}
 .logo img {
     max-width: 300px;
 }
 header {
     display: flex;
     justify-content: space-between;
-    padding: 0.5em;
+    padding: 2em;
+    padding-bottom: 0;
     background-color: var(--black);
     color: var(--white);
 }
@@ -32,7 +37,7 @@ header {
     height: 500px;
     color: var(--white);
     background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(18,152,255,1) 55%, rgba(0,84,149,1) 80%, rgba(0,0,0,1) 93%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(18,152,255,1) 55%, rgba(0,84,149,1) 85%, rgba(0,0,0,1) 100%);
 }
 .download h1 {
     color: var(--white);
@@ -44,4 +49,8 @@ header {
     font-size: xx-large;
     font-weight: 300;
     padding: 0.5em;
+}
+
+.uvod {
+    margin-top: 1em;
 }
