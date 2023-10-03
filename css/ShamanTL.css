@@ -3,6 +3,7 @@
     --white: #FFFFFF;
     --stl-color: #46FFDD;
     --blue: #1298FF;
+    --light-green: #33FF55;
     --green: #27b63f;
     --green-visited: #00a01b;
     --blue-active: #03b7c4;
@@ -19,6 +20,28 @@ a:hover {
     color: var(--stl-color);
 }
 
+.button__basic {
+    padding: 1em;
+}
+.button__basic:link {
+    text-decoration: none;
+    color: var(--light-green);
+    border: 2px solid var(--light-green);
+    border-radius: 0.5em;
+    transition: 0.4s;
+}
+.button__basic:visited {
+    color: var(--light-green);
+}
+.button__basic:hover {
+    color: var(--black);
+    font-weight: bold;
+    border: 2px solid var(--stl-color);
+    background-color: var(--stl-color);
+    border-radius: 3em;
+    transition: 0.4s;
+
+}
 p {
 
 }

@@ -3,8 +3,11 @@
     --white: #FFFFFF;
     --stl-color: #46FFDD;
     --blue: #1298FF;
-    --green: #33FF55;
+    --green: #27b63f;
+    --green-visited: #00a01b;
+    --blue-active: #03b7c4;
 }
+
     
 body{
     font-family: 'Montserrat', sans-serif;
@@ -25,6 +28,7 @@ header {
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 500px;
     color: var(--white);
     background: rgb(255,255,255);
@@ -32,4 +36,6 @@ header {
 }
 .download h1 {
     color: var(--white);
+    max-width: 300px;
+    margin-bottom: 2em;
 }
