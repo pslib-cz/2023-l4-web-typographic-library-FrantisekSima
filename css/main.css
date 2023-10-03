@@ -39,3 +39,8 @@ header {
     max-width: 300px;
     margin-bottom: 2em;
 }
+.download .button__basic {
+    font-size: xx-large;
+    font-weight: 300;
+    padding: 0.5em;
+}
