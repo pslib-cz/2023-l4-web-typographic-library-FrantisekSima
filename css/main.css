@@ -36,8 +36,9 @@ header {
 }
 .download h1 {
     color: var(--white);
-    max-width: 300px;
-    margin-bottom: 2em;
+    max-width: 600px;
+    margin-bottom: 1em;
+    margin-top: -0.5em;
 }
 .download .button__basic {
     font-size: xx-large;
