@@ -1,3 +1,21 @@
+:root {
+    --black: #000000;
+    --white: FFFFFF;
+    --stl-color: 46FFDD;
+    --blue: 1298FF;
+    --green: 33FF55;
+}
+    
 body{
     font-family: 'Montserrat', sans-serif;
+}
+.logo img {
+    max-width: 300px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    background-color: var(--black);
+    color: var(--white);
 }
