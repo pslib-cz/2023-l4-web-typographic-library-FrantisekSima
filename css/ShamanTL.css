@@ -1,6 +1,24 @@
-a {
-
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --stl-color: #46FFDD;
+    --blue: #1298FF;
+    --green: #27b63f;
+    --green-visited: #00a01b;
+    --blue-active: #03b7c4;
 }
+
+/* Most basic link setting */
+a:link {
+    color: var(--green);
+}
+a:visited {
+    color: var(--green-visited);
+}
+a:hover {
+    color: var(--stl-color);
+}
+
 p {
 
 }
@@ -26,5 +44,5 @@ button {
 
 }
 img {
-    
+
 }
