@@ -28,7 +28,7 @@ a:hover {
 .button__basic:link {
     text-decoration: none;
     color: var(--light-green);
-    border: 2px solid var(--light-green);
+    border: 3px solid var(--light-green);
     border-radius: 0.5em;
     transition: 0.4s;
 }
@@ -38,7 +38,7 @@ a:hover {
 .button__basic:hover {
     color: var(--black);
     font-weight: 600;
-    border: 2px solid var(--stl-color);
+    border: 3px solid var(--stl-color);
     background-color: var(--stl-color);
     border-radius: 3em;
     transition: 0.4s;
@@ -52,7 +52,7 @@ a:hover {
 .button__basic--dark:link {
     text-decoration: none;
     color: var(--dark-green);
-    border: 2px solid var(--dark-green);
+    border: 3px solid var(--dark-green);
     border-radius: 0.5em;
     transition: 0.4s;
 }
@@ -62,31 +62,38 @@ a:hover {
 .button__basic--dark:hover {
     color: var(--black);
     font-weight: bold;
-    border: 2px solid var(--stl-color);
+    border: 3px solid var(--stl-color);
     background-color: var(--stl-color);
     border-radius: 3em;
     transition: 0.4s;
 }
 p {
-
+    font-size: 19px;
+    line-height: 30px;
 }
 h1 {
     font-size: 50px;
+    letter-spacing: 2px;
 }
 h2 {
     font-size: 40px;
+    letter-spacing: 2px;
 }
 h3 {
     font-size: 30px;
+    letter-spacing: 2px;
 }
 h4 {
     font-size: 25px;
+    letter-spacing: 2px;
 }
 h5 {
     font-size: 20px;
+    letter-spacing: 2px;
 }
 h6 {
     font-size: 15px;
+    letter-spacing: 2px;
 }
 button {
 
