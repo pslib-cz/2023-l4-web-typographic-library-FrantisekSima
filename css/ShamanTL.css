@@ -76,11 +76,12 @@ a:hover {
 }
 .button__notif:link {
     text-decoration: none;
+    font-weight: 500;
     color: var(--black);
     border: 3px solid var(--blue-active);
     background-color: var(--blue-active);
     border-radius: 0.5em;
-    transition: 0.4s;
+    /* transition: 0.4s; */
 }
 .button__notif:visited {
     color: var(--dark-green);
@@ -89,8 +90,8 @@ a:hover {
     color: var(--white);
     border: 3px solid var(--blue-active);
     background-color: var(--red);
-    border-radius: 3em;
-    transition: 0.4s;
+    /* border-radius: 3em; */
+    /* transition: 0.4s; */
 }
 
 
