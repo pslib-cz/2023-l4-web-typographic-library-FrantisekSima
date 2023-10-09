@@ -8,6 +8,7 @@
     --green: #27b63f;
     --green-visited: #00a01b;
     --blue-active: #03b7c4;
+    --red: rgb(255, 70, 70);
 }
 
 /* Most basic link setting */
@@ -67,6 +68,34 @@ a:hover {
     border-radius: 3em;
     transition: 0.4s;
 }
+
+
+/* notification button format*/
+.button__notif{
+    padding: 1em;
+}
+.button__notif:link {
+    text-decoration: none;
+    color: var(--black);
+    border: 3px solid var(--blue-active);
+    background-color: var(--blue-active);
+    border-radius: 0.5em;
+    transition: 0.4s;
+}
+.button__notif:visited {
+    color: var(--dark-green);
+}
+.button__notif:hover {
+    color: var(--white);
+    border: 3px solid var(--blue-active);
+    background-color: var(--red);
+    border-radius: 3em;
+    transition: 0.4s;
+}
+
+
+
+
 section {
     padding-bottom: 3em;
 }
@@ -107,9 +136,6 @@ h5 {
 h6 {
     font-size: 15px;
     letter-spacing: 2px;
-}
-button {
-
 }
 img {
 
