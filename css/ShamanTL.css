@@ -68,7 +68,7 @@ a:hover {
     transition: 0.4s;
 }
 section {
-    margin-bottom: 2em;
+    padding-bottom: 3em;
 }
 code {
     background-color: var(--stl-color);
@@ -82,7 +82,7 @@ p {
 }
 b {
     font-weight: 800;
-    letter-spacing: 1.5px;
+    letter-spacing: px;
 }
 h1 {
     font-size: 50px;

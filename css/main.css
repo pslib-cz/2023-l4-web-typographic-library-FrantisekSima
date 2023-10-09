@@ -58,3 +58,29 @@ header {
 .nadpisy {
     margin-left: 2em;
 }
+
+
+
+
+
+
+
+footer {
+    background-color: var(--black);
+    padding-bottom: 1em;
+}
+.footer__logo {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 70%, rgba(101,101,101,1) 85%, rgba(255,255,255,1) 100%);
+    padding: 2em;
+}
+.footer__text {
+    color: var(--white);
+}
+.copyright {
+    display: flex;
+    justify-content: right;
+}
+.copyright p {
+    font-size: small;
+}
