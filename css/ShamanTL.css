@@ -67,9 +67,22 @@ a:hover {
     border-radius: 3em;
     transition: 0.4s;
 }
+section {
+    margin-bottom: 2em;
+}
+code {
+    background-color: var(--stl-color);
+    border: solid 1px hidden;
+    border-radius: 8px;
+}
 p {
     font-size: 19px;
     line-height: 30px;
+    margin: 1em;
+}
+b {
+    font-weight: 800;
+    letter-spacing: 1.5px;
 }
 h1 {
     font-size: 50px;
