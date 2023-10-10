@@ -8,7 +8,7 @@
     --green: #27b63f;
     --green-visited: #00a01b;
     --blue-active: #03b7c4;
-    --red: rgb(255, 70, 70);
+    --red: #ff4646;
 }
 
 /* Most basic link setting */
@@ -71,25 +71,51 @@ a:hover {
 
 
 /* notification button format*/
-.button__notif{
+.button__rednotif{
     padding: 1em;
 }
-.button__notif:link {
+.button__rednotif:link {
     text-decoration: none;
     color: var(--black);
-    border: 3px solid var(--blue-active);
+    border: 3px solid var(--black);
     background-color: var(--blue-active);
+    border-radius: 0.5em;
+    /* transition: 0.4s; */
+}
+.button__rednotif:visited {
+    color: var(--black);
+    border: var(--black);
+}
+.button__rednotif:hover {
+    color: var(--white);
+    border: 3px solid var(--black);
+    background-color: var(--red);
+    /* border-radius: 3em;
+    transition: 0.4s; */
+}
+
+
+/* milder notification button format*/
+.button__subnotif{
+    padding: 1em;
+}
+.button__subnotif:link {
+    text-decoration: none;
+    color: var(--black);
+    border: 3px solid var(--black);
+    background-color: var(--blue);
     border-radius: 0.5em;
     transition: 0.4s;
 }
-.button__notif:visited {
-    color: var(--dark-green);
+.button__subnotif:visited {
+    color: var(--black);
+    border: var(--black);
 }
-.button__notif:hover {
-    color: var(--white);
-    border: 3px solid var(--blue-active);
-    background-color: var(--red);
-    border-radius: 3em;
+.button__subnotif:hover {
+    color: var(--black);
+    border: 3px solid var(--black);
+    background-color: var(--blue);
+    border-radius: 1em;
     transition: 0.4s;
 }
 
