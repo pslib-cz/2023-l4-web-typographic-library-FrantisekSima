@@ -156,3 +156,51 @@ h6 {
 img {
 
 }
+
+
+
+
+
+
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: thin gray solid;
+    padding: .5rem;
+    text-align: center;
+}
+thead, tbody {
+    border-bottom: 3px solid black;
+}
+thead {
+    background-color: #1976d2;
+    color: white;
+}
+thead th, thead td {
+    border: solid thin white;
+}
+/* .brass {
+    background-color: #D4D297;
+}
+.steel {
+    background-color: #DFE1E1;
+}
+.titanium {
+    background-color: #aab6fe;
+}
+tbody tr:first-child th {
+    background-color: #bbdefb;
+}
+tbody tr:hover {
+    text-shadow: 0 1px #1976d2;
+}
+.sold-out {
+    color: red;
+} */

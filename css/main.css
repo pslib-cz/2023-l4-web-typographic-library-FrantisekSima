@@ -65,9 +65,10 @@ header {
 
 
 .buttons {
-    margin: 2em 0 2em 3em;
+    margin: 2.5em auto 2.5em auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     max-width: 30em;
     justify-content: space-evenly;
 }
