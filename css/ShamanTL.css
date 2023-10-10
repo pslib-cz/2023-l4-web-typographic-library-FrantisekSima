@@ -22,101 +22,91 @@ a:hover {
     color: var(--stl-color);
 }
 
-/* basic button format */
-.button__basic {
+
+.button {
     padding: 1em;
-}
-.button__basic:link {
     text-decoration: none;
+    border: 3px solid;
+    border-radius: 0.5em;
+    transition: 0.4s;    
+}
+.button:link, .button:visited, .button:hover {
+    color: var(--black);
+}
+.button:hover {
+    border-radius: 3em;
+}
+
+
+/* basic button format */
+.button--basic:link {
     color: var(--light-green);
     border: 3px solid var(--light-green);
-    border-radius: 0.5em;
-    transition: 0.4s;
 }
-.button__basic:visited {
+.button--basic:visited {
     color: var(--light-green);
 }
-.button__basic:hover {
+.button--basic:hover {
     color: var(--black);
     font-weight: 600;
     border: 3px solid var(--stl-color);
     background-color: var(--stl-color);
-    border-radius: 3em;
-    transition: 0.4s;
 }
 
 
 /* basic button format FOR LIGHT BACKGROUND*/
-.button__basic--dark{
-    padding: 1em;
-}
-.button__basic--dark:link {
-    text-decoration: none;
+.button--dark:link {
     color: var(--dark-green);
     border: 3px solid var(--dark-green);
-    border-radius: 0.5em;
-    transition: 0.4s;
 }
-.button__basic--dark:visited {
+.button--dark:visited {
     color: var(--dark-green);
 }
-.button__basic--dark:hover {
+.button--dark:hover {
     color: var(--black);
     font-weight: bold;
     border: 3px solid var(--stl-color);
     background-color: var(--stl-color);
-    border-radius: 3em;
-    transition: 0.4s;
 }
 
 
 /* notification button format*/
-.button__rednotif{
-    padding: 1em;
-}
-.button__rednotif:link {
-    text-decoration: none;
+.button--rednotif:link {
     color: var(--black);
     border: 3px solid var(--black);
-    background-color: var(--blue-active);
-    border-radius: 0.5em;
-    /* transition: 0.4s; */
+    background-color: var(--red);
+    transition: 0s;
 }
-.button__rednotif:visited {
+.button--rednotif:visited {
     color: var(--black);
     border: var(--black);
 }
-.button__rednotif:hover {
+.button--rednotif:hover {
     color: var(--white);
     border: 3px solid var(--black);
-    background-color: var(--red);
-    /* border-radius: 3em;
-    transition: 0.4s; */
+    background-color: var(--blue);
+    border-radius: 0.5em;
+    transition: 0s;
 }
 
 
 /* milder notification button format*/
-.button__subnotif{
-    padding: 1em;
-}
-.button__subnotif:link {
-    text-decoration: none;
+.button--subnotif:link {
     color: var(--black);
     border: 3px solid var(--black);
     background-color: var(--blue);
-    border-radius: 0.5em;
-    transition: 0.4s;
+    transition: 0.2s;
 }
-.button__subnotif:visited {
+.button--subnotif:visited {
     color: var(--black);
     border: var(--black);
 }
-.button__subnotif:hover {
+.button--subnotif:hover {
     color: var(--black);
     border: 3px solid var(--black);
     background-color: var(--blue);
     border-radius: 1em;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 
