@@ -45,7 +45,7 @@ header {
     margin-bottom: 1em;
     margin-top: -0.5em;
 }
-.download .button__basic {
+.download .headbutton {
     font-size: xx-large;
     font-weight: 300;
     padding: 0.5em;
@@ -68,6 +68,19 @@ header {
     gap: 3em;
 }
 
+
+
+
+
+
+.buttons {
+    margin: 2.5em auto 2.5em auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 30em;
+    justify-content: space-evenly;
+}
 
 
 

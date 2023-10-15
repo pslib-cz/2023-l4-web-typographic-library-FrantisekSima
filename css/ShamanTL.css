@@ -8,7 +8,7 @@
     --green: #27b63f;
     --green-visited: #00a01b;
     --blue-active: #03b7c4;
-    --red: rgb(255, 70, 70);
+    --red: #ff4646;
 }
 
 /* Most basic link setting */
@@ -22,51 +22,51 @@ a:hover {
     color: var(--stl-color);
 }
 
-/* basic button format */
-.button__basic {
+
+.button {
     padding: 1em;
-}
-.button__basic:link {
     text-decoration: none;
+    border: 3px solid;
+    border-radius: 0.5em;
+    transition: 0.4s;    
+}
+.button:link, .button:visited, .button:hover {
+    color: var(--black);
+}
+.button:hover {
+    border-radius: 3em;
+}
+
+
+/* basic button format */
+.button--basic:link {
     color: var(--light-green);
     border: 3px solid var(--light-green);
-    border-radius: 0.5em;
-    transition: 0.4s;
 }
-.button__basic:visited {
+.button--basic:visited {
     color: var(--light-green);
 }
-.button__basic:hover {
+.button--basic:hover {
     color: var(--black);
     font-weight: 600;
     border: 3px solid var(--stl-color);
     background-color: var(--stl-color);
-    border-radius: 3em;
-    transition: 0.4s;
 }
 
 
 /* basic button format FOR LIGHT BACKGROUND*/
-.button__basic--dark{
-    padding: 1em;
-}
-.button__basic--dark:link {
-    text-decoration: none;
+.button--dark:link {
     color: var(--dark-green);
     border: 3px solid var(--dark-green);
-    border-radius: 0.5em;
-    transition: 0.4s;
 }
-.button__basic--dark:visited {
+.button--dark:visited {
     color: var(--dark-green);
 }
-.button__basic--dark:hover {
+.button--dark:hover {
     color: var(--black);
     font-weight: bold;
     border: 3px solid var(--stl-color);
     background-color: var(--stl-color);
-    border-radius: 3em;
-    transition: 0.4s;
 }
 
 
@@ -76,22 +76,26 @@ a:hover {
 }
 .button__notif:link {
     text-decoration: none;
-    font-weight: 500;
     color: var(--black);
-    border: 3px solid var(--blue-active);
-    background-color: var(--blue-active);
-    border-radius: 0.5em;
-    /* transition: 0.4s; */
+    border: var(--black);
 }
-.button__notif:visited {
-    color: var(--dark-green);
+.button--rednotif:hover {
+    color: var(--white);
+    border: 3px solid var(--black);
+    background-color: var(--blue);
+    border-radius: 0.5em;
+    transition: 0.4s;
+}
+.button--subnotif:visited {
+    color: var(--black);
+    border: var(--black);
 }
 .button__notif:hover {
     color: var(--white);
     border: 3px solid var(--blue-active);
     background-color: var(--red);
-    /* border-radius: 3em; */
-    /* transition: 0.4s; */
+    border-radius: 3em;
+    transition: 0.4s;
 }
 
 
@@ -141,3 +145,51 @@ h6 {
 img {
 
 }
+
+
+
+
+
+
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: thin gray solid;
+    padding: .5rem;
+    text-align: center;
+}
+thead, tbody {
+    border-bottom: 3px solid black;
+}
+thead {
+    background-color: #1976d2;
+    color: white;
+}
+thead th, thead td {
+    border: solid thin white;
+}
+/* .brass {
+    background-color: #D4D297;
+}
+.steel {
+    background-color: #DFE1E1;
+}
+.titanium {
+    background-color: #aab6fe;
+}
+tbody tr:first-child th {
+    background-color: #bbdefb;
+}
+tbody tr:hover {
+    text-shadow: 0 1px #1976d2;
+}
+.sold-out {
+    color: red;
+} */
