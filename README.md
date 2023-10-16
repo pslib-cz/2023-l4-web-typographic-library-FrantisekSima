@@ -47,8 +47,21 @@ As a result final appearance is this:
     --red: #ff4646;
     --table-transparent: #5ccbffad;
 }
-
 ```
+## Headings
+In STL you can use heading from `<h1>` to `<h6>`. Font sizes are like this:
+* `<h1>`=45px 
+* `<h2>`=38px
+* `<h3>`=30px
+* `<h4>`=25px
+* `<h5>`=20px
+* `<h6>`=15px
+
+
+## Text 
+Font size in the whole document is set to `19px`. Even though this size is a bit unusual in desktop usage can be practical and even on phone leters are not too big.
+Other tags author desided to change are `<code>` and `<b>`.
+
 ## Usage
 ...
 ## Components
