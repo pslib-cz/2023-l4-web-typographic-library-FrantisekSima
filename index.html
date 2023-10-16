@@ -18,10 +18,11 @@
             <img src="./img/ShamanTL-white.svg" alt="">
         </div>
         <nav>
-            <a href="">blah</a>
-            <a href="">blah</a>
-            <a href="">blah</a>
-            <a href="">blah</a>
+            <a class="button button--basic" href="#titles">Titles</a>
+            <a class="button button--basic" href="#text">Text</a>
+            <a class="button button--basic" href="#buttons">Buttons</a>
+            <a class="button button--basic" href="#tables">Tables</a>
+            <a class="button button--basic" href="#images">Images</a>
         </nav>
     </header>
     <main>  
@@ -37,7 +38,7 @@
                This project was created due to a school assignment and is supposed to simplify begining of other projects becouse by using this CSS library u will already have some of the tags and functions predefined.
             </p>
         </section>
-        <section class="body__width">
+        <section id="titles" class="body__width">
             <h2>Titles</h2>
             <p>This is how titles look in STL, you can use them by using basic <code>&lt;h1&gt;</code> up to <code>&lt;h6&gt;</code>. They have different <code>font-size</code> and <code>letter-spacing</code> compared to regular behavior. </p>
             <div class="nadpisy">
@@ -49,7 +50,7 @@
                 <h6>#Headline</h6>
             </div>
         </section>
-        <section class="body__width">
+        <section id="text" class="body__width">
             <h2>Text</h2>
                 <p>STL chanhes natural behavior of tags
                     <code>&lt;p&gt;</code>, <code>&lt;b&gt;</code>, <code>&lt;a&gt;</code> and <code>&lt;code&gt;</code>
@@ -72,7 +73,7 @@
                     has different <code>background-color</code> and <code>border</code> settings.
                 </p> 
         </section>
-        <section class="body__width">
+        <section id="buttons" class="body__width">
             <h2>Buttons</h2>
             <p>This is basic button format of STL. Buttons behavior is same and only
                 thing changing is its color to fit darker and lighter theme of
@@ -96,7 +97,7 @@
                 <a class="button button--subnotif" href="">Example</a>
             </div>
         </section>
-        <section class="body__width">
+        <section id="tables" class="body__width">
             <h2>Tables</h2>
             <p>STL also changes natural behavior of tables to easier aprochable style.</p>
             <div class="table__wrapper">
@@ -125,12 +126,19 @@
                 </table>
             </div>
         </section>
+        <section id="images" class="body__width">
+            <h2>Images</h2>
+            <p>This is how images naturally display in STL.</p>
+            <div class="img__wrapper">
+                <img src="./img/meadows-8313453_1920.jpg" alt="Picture of mountains">
+            </div>
+        </section>
     </main> 
 
 
     <footer>
-        <div class="footer__logo">
-            <img src="./img/ShamanTL-white.svg" alt="">
+        <div class="logo footer__logo">
+            <div><a href="#"><img src="./img/ShamanTL-white.svg" alt=""></a></div>
         </div>
         <div class="footer__text body__width">
             <p>Created by: František Šíma</p>

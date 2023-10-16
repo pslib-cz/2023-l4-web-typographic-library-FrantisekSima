@@ -23,7 +23,7 @@ a:hover {
     color: var(--stl-color);
 }
 
-
+/* basic button format */
 .button {
     padding: 1em;
     text-decoration: none;
@@ -34,12 +34,15 @@ a:hover {
 .button:link, .button:visited, .button:hover {
     color: var(--black);
 }
+.button--white:link, .button--white:visited, .button--white:hover {
+    color: var(--white);
+}
 .button:hover {
     border-radius: 3em;
 }
 
 
-/* basic button format */
+/* STL color button format */
 .button--basic:link {
     color: var(--light-green);
     border: 3px solid var(--light-green);
@@ -96,7 +99,7 @@ a:hover {
 }
 
 
-
+/* basic text and style behavior */
 section {
     padding-bottom: 3em;
 }
@@ -115,11 +118,11 @@ b {
     letter-spacing: px;
 }
 h1 {
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: 2px;
 }
 h2 {
-    font-size: 40px;
+    font-size: 38px;
     letter-spacing: 2px;
 }
 h3 {
@@ -138,8 +141,12 @@ h6 {
     font-size: 15px;
     letter-spacing: 2px;
 }
-img {
 
+/* basic img behavior */
+img {
+    width: 100%;
+    border: solid ;
+    border-radius: 1em;
 }
 
 
@@ -150,7 +157,7 @@ img {
 
 
 
-
+/* table settings */
 
 table {
     border-collapse: collapse;
