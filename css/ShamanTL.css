@@ -1,9 +1,9 @@
 :root {
     --black: #000000;
     --white: #FFFFFF;
-    --stl-color: #46FFDD;
+    --stl-color: #46ffdd;
     --blue: #1298FF;
-    --light-green: #33FF55;
+    --light-green: #33ff55;
     --dark-green: #004b0c;
     --green: #27b63f;
     --green-visited: #00a01b;
@@ -70,34 +70,29 @@ a:hover {
 }
 
 
-/* notification button format*/
-.button__notif{
-    padding: 1em;
-}
-.button__notif:link {
-    text-decoration: none;
+/* notification button formats*/
+/* red notification format */
+.button--rednotif:visited {
     color: var(--black);
     border: var(--black);
 }
 .button--rednotif:hover {
+    color: var(--white);
+    border: 3px solid var(--blue-active);
+    background-color: var(--red);
+    border-radius: 1.5em;
+    transition: 0.4s;
+}
+
+
+/* more subtle blue ntification format */
+.button--subnotif:hover {
     color: var(--white);
     border: 3px solid var(--black);
     background-color: var(--blue);
     border-radius: 0.5em;
     transition: 0.4s;
 }
-.button--subnotif:visited {
-    color: var(--black);
-    border: var(--black);
-}
-.button__notif:hover {
-    color: var(--white);
-    border: 3px solid var(--blue-active);
-    background-color: var(--red);
-    border-radius: 3em;
-    transition: 0.4s;
-}
-
 
 
 
@@ -158,22 +153,23 @@ img {
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
+    
 }
 td, th {
-    border: thin gray solid;
-    padding: .5rem;
+    border: thin rgb(0, 0, 0) solid;
+    padding: 1rem;
     text-align: center;
 }
 thead, tbody {
-    border-bottom: 3px solid black;
+    border: 3px solid black;
 }
 thead {
-    background-color: #1976d2;
+    background-color: var(--blue);
     color: white;
 }
 thead th, thead td {
-    border: solid thin white;
+    border: solid thin rgb(0, 0, 0);
 }
 /* .brass {
     background-color: #D4D297;
