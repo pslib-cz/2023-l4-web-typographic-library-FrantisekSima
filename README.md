@@ -11,7 +11,7 @@ Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-Fran
 2. [Colors](#Colors)
 3. [Headings](#Headings)
 4. [Text](#Text)
-5. [Font](#Fonts)
+5. [Font](#Font)
 6. [Components](#Components)   
        7.1. [Buttons](#Buttons)  
        7.2. [Tables](#Tables)
