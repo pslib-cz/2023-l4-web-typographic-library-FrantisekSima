@@ -2,7 +2,7 @@
 # Typography CSS library
 **Author:** František Šíma
 ## Demo site
-Link to **[demo](http://www.github.io](https://pslib-cz.github.io/2023-l4-web-typographic-library-FrantisekSima/)** site for preview.
+Link to **[demo](https://www.github.io](https://pslib-cz.github.io/2023-l4-web-typographic-library-FrantisekSima/ )** site for preview.
 ## Dependecies
 ...
 ## Implementation
