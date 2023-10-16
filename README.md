@@ -83,9 +83,34 @@ You can also add more variant by adding a second class to the `<a>` tag, like th
 ```
 
 ### Tables
-
+To use STL style tables you don't have to add any class. Style is set to fit basic semanticly corect html. For example like this:
+```html
+              <table>
+                    <caption>Example table caption</caption>
+                    <thead>
+                        <tr>
+                            <th>Exaple title 1</th>
+                            <th>example title 2</th>   
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Exaple line name</th>
+                            <td>Example line item</td>
+                        </tr>
+                        <tr>
+                            <th>Exaple line name</th>
+                            <td>Example line item</td>
+                        </tr>
+                        <tr>
+                            <th>Exaple line name</th>
+                            <td>Example line item</td>
+                        </tr>
+                    </tbody>
+                </table>
+```
+(Exact same code is used on demo page)
 ## Usage
-...
-## Components
-### First
-### Second
+Usage of STL is wide and you can use this typographic library anywhere. But it's main focus is priparly on desktop websides where user needs to be able to read everything clearly.
+It could be for example used as a basis for more developed typohraphic library of some retirement home which focuses on older people and expectes them to use reather computer over mobile device with small screen.
+
